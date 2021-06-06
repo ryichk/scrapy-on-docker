@@ -19,3 +19,5 @@ RUN apt-get update && \
         && \
     python3 -m pip install --upgrade pip && \
     python3 -m pip install --no-cache-dir --upgrade scrapy
+
+WORKDIR /app
